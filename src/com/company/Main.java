@@ -10,9 +10,10 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
+        System.out.println("Pick a number 1 through 100");
 
         try {
-            System.out.println("Pick a number 1 through 100");
+
             input.nextInt();
 
         } catch (InputMismatchException ime) {
